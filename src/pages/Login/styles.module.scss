@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+a,
+u {
+    font-weight: 300;
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+        color: rgb(245, 85, 46);
+    }
+}
+
+.root {
+    text-align: center;
+    vertical-align: middle;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(245, 85, 45, 1) 0%, rgba(255, 151, 0, 1) 100%);
+    min-height: 600px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #fff;
+    min-height: 400px;
+    min-width: 500px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.animation {
+    top: 50%;
+    left: 0;
+    position: absolute;
+    animation-name: slideFromLeft;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideFromLeft {
+    from {
+        left: -200px;
+    }
+
+    to {
+        left: 10px;
+    }
+}

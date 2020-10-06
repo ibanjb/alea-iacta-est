@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="none" viewBox="0 0 1440 439" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <defs>
+        <path d="M7.79389944e-14,38.4484679 C465.328635,53.3798585 945.328635,40.5637026 1440,0 L1440,439 C1009.68862,428.903864 529.688616,395.845746 7.79389944e-14,339.825647 C1.13692551e-13,340.647171 -1.14094894e-13,40.3358164 7.79389944e-14,38.4484679 Z" id="path-1"></path>
+    </defs>
+    <g id="Home-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -546.000000)">
+        <g id="big-background" transform="translate(0.000000, 546.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#F9F7FA" transform="translate(720.000000, 219.500000) scale(-1, 1) translate(-720.000000, -219.500000) " xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

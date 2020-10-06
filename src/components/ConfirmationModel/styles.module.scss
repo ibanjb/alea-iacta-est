@@ -1,0 +1,51 @@
+.root {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    margin-top: 10%;
+    margin-left: 25%;
+    height: 200px;
+    width: 500px;
+    border: 1px solid rgb(245, 85, 46);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255, 255, 1);
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.title {
+    font-size: 18px;
+    color: rgb(245, 85, 46);
+}
+
+.description {
+    font-size: 12px;
+}
+
+.button {
+    background-color: rgb(245, 85, 46);
+    border: none;
+    color: #fff;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #fff;
+        color: rgb(245, 85, 46);
+        border: 1px solid rgb(245, 85, 46);
+    }
+}

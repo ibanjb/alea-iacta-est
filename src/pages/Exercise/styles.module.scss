@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+a,
+u {
+    font-weight: 300;
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+        color: rgb(245, 85, 46);
+    }
+}
+
+.root {
+    text-align: center;
+    vertical-align: middle;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(245, 85, 45, 1) 0%, rgba(255, 151, 0, 1) 100%);
+    min-height: 650px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #fff;
+    min-height: 550px;
+    min-width: 1000px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+// Information retrieved from https://www.w3schools.com/howto/howto_js_snackbar.asp 
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+.snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: rgb(245, 85, 46);
+    color: #fff;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 3;
+    left: 85%;
+    top: 15%;
+}
+
+
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}

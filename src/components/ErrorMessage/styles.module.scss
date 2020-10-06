@@ -1,0 +1,39 @@
+.root {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageContainer {
+    display: 'grid';
+    z-index: 0;
+}
+
+.centerImage {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.messageContainer {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    min-width: 500px;
+    z-index: 1;
+}
+
+.messageTitle {
+    font-family: 'Comfortaa', cursive;
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(245, 85, 46);
+}
+
+.messageDescription {
+    font-family: 'Comfortaa', cursive;
+    font-size: 24px;
+    font-weight: 300;
+    color: rgb(245, 85, 46);
+}

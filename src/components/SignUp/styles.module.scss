@@ -1,0 +1,61 @@
+label {
+    font-size: 12px;
+}
+
+.mainTitle {
+    font-size: 24px;
+    font-weight: 800;
+    color: #000;
+}
+
+.mainSubtitle {
+    font-size: 12px;
+}
+
+.input-container input {
+    margin: 20px;
+    border: 0;
+    border-bottom: 1px solid #555;
+    background: transparent;
+    width: 300px;
+    padding: 8px 0 5px 0;
+    font-size: 12px;
+}
+
+.input-container input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #e74c3c;
+}
+
+.checkbox {
+    cursor: pointer
+}
+
+.checkBoxLabel {
+    margin-left: 10px;
+}
+
+.separator {
+    margin: 20px;
+}
+
+.signUpButton {
+    background-color: rgb(245, 85, 46);
+    border: none;
+    color: #fff;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #fff;
+        color: rgb(245, 85, 46);
+        border: 1px solid rgb(245, 85, 46);
+    }
+}
