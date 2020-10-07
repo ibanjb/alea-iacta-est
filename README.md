@@ -38,7 +38,7 @@ Something good to know before proceed:
 #### What would you do if you had more time?
 
 - This PoC was done in less than two days (just a couple of hours) so there are a lot of things to implement but, as an exercise and take a look about structure and code, will be fair enough
-- Responsive design. Was developed in a 13" Macbook Pro without any UI library so this feature is missing
+- Responsive design. Was developed in a 13" Macbook Pro without any UI library so this feature is missing due time :(
 - Create the required unit tests for the components and redux objects. Right now, there are only two unit tests due lack of time. Must be incresed to reach the required coverage
 - Complete the signIn-signUp flow to redirect to the example's page
 - Create private routes to throw a 403 error page if the users is not authenticated
