@@ -182,6 +182,7 @@ const UserTable = (props: {
   return (
     <>
       <DataTable
+        data-testid="users-data-table"
         theme="aleaTheme"
         columns={columns}
         data={users}
@@ -189,7 +190,11 @@ const UserTable = (props: {
         paginationPerPage={5}
         paginationRowsPerPageOptions={[5, 10, 20]}
       />
-      <button className={styles.button} onClick={handleCreateUserButton}>
+      <button
+        data-testid="create-new-user-button"
+        className={styles.button}
+        onClick={handleCreateUserButton}
+      >
         Create new user
       </button>
       <UserModal
