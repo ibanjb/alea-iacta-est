@@ -28,10 +28,11 @@ Something good to know before proceed:
 - Didn't use any UI library
 - Used some images from Alea homepage to look similar
 
-#### Missing parts
+#### Missing parts
 
 - The sign up and sign in flow is not done due lack of time
 - 404 page is used with react-router, miss to implement 403 and 500
+- Responsive design
 - Fix jest error related with scss imports
 
 #### What would you do if you had more time?
